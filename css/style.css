@@ -1,0 +1,32 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0 auto;
+}
+
+/* .mostrar_calendario::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+} */
+
+#fecha{
+    display: none;
+}
+
+.calendario{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+/* .primer-dia{
+    grid-column-start: 5;
+} */
